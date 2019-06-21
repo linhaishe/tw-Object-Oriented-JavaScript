@@ -12,7 +12,7 @@ describe("Person", () => {
         expect(person.name).to.equal("Tom");
         expect(person.age).to.equal(21);
     });
-
+//
     it("should have a method introduce, introduce person with name and age", () => {
         const person = new Person("Tom", 21);
         const introduce = person.introduce();
