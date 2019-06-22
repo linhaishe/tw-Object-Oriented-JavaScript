@@ -1,5 +1,5 @@
 {
-  "name": "oo-step-by-step-es6",
+  "name": "xusumu",
   "version": "1.0.0",
   "description": "Powered by ThoughtWorks School",
   "repository": {
@@ -20,10 +20,14 @@
   },
   "devDependencies": {
     "babel": "^5.8.23",
+    "chai": "^4.2.0",
     "mocha": "^4.0.1",
     "sinon": "^4.0.1",
-    "chai": "^4.1.0",
     "sinon-chai": "^2.14.0",
     "source-map-support": "^0.3.3"
-  }
+  },
+  "main": "index.js",
+  "keywords": [
+    "object"
+  ]
 }
