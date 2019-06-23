@@ -1,13 +1,21 @@
 "use strict";
-import chai from "chai";
-import sinonChai from "sinon-chai";
-const expect = chai.expect;
-chai.use(sinonChai);
+// import chai from "chai";
+// import sinonChai from "sinon-chai";
+// const expect = chai.expect;
+// chai.use(sinonChai);
 
-import Person from "../../main/practice_7/person.js";
-import Student from "../../main/practice_7/student.js";
-import Teacher from "../../main/practice_7/teacher.js";
-import Class from "../../main/practice_7/class.js";
+// import Person from "../../main/practice_7/person.js";
+// import Student from "../../main/practice_7/student.js";
+// import Teacher from "../../main/practice_7/teacher.js";
+// import Class from "../../main/practice_7/class.js";
+
+let expect = require("chai").expect;
+let sinonChai = require("sinon-chai");
+
+let Person = require("../../main/practice_7/person.js");
+let Student = require("../../main/practice_7/student.js");
+let Teacher = require("../../main/practice_7/teacher.js")
+let Class = require("../../main/practice_7/class.js")
 
 describe("Person", () => {
     it("should have field name and age", () => {
