@@ -1,12 +1,20 @@
 "use strict";
-import chai from "chai";
-import sinonChai from "sinon-chai";
-const expect = chai.expect;
-chai.use(sinonChai);
+// import chai from "chai";
+// import sinonChai from "sinon-chai";
+// const expect = chai.expect;
+// chai.use(sinonChai);
 
-import Person from "../../main/practice_6/person.js";
-import Student from "../../main/practice_6/student.js";
-import Teacher from "../../main/practice_6/teacher.js";
+// import Person from "../../main/practice_6/person.js";
+// import Student from "../../main/practice_6/student.js";
+// import Teacher from "../../main/practice_6/teacher.js";
+
+let expect = require("chai").expect;
+let sinonChai = require("sinon-chai");
+
+let Person = require("../../main/practice_6/person.js");
+let Student = require("../../main/practice_6/student.js");
+let Teacher = require("../../main/practice_6/teacher.js")
+
 
 
 describe("Person", () => {
