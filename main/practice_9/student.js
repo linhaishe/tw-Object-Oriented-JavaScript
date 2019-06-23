@@ -1,4 +1,3 @@
-//let Person = require("../../main/practice_9/person.js");
 module.exports = class Student{
     constructor(num, name, age, klass){
         this.num = num;
