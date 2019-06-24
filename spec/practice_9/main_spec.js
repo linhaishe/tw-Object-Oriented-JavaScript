@@ -13,6 +13,7 @@
 
 let expect = require("chai").expect;
 let sinonChai = require("sinon-chai");
+let sinon = require("sinon")
 
 let Person = require("../../main/practice_9/person.js");
 let Student = require("../../main/practice_9/student.js");

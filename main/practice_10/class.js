@@ -1,4 +1,5 @@
 class Class {
+
     constructor(number) {
         this.number = number;
     }
@@ -7,16 +8,16 @@ class Class {
         return "Class " + this.number;
     }
 
-    assignLeader(student) {
-        if (student.klass.number === this.number) {
-            this.leader = student
+    assignLeader(student){
+        if(student.klass.number == this.number){
+            this.leader = student;
         } else {
+            this.leader = null;
             console.log("It is not one of us.");
         }
-
     }
 
-    appendMember(student) {
+    appendMember(student){
         student.klass = this;
     }
 }

@@ -1,6 +1,6 @@
 "use strict";
-// import _ from "lodash";
-// import chai from "chai";
+//import _ from "lodash";
+//import chai from "chai";
 // import sinon from "sinon";
 // import sinonChai from "sinon-chai";
 // const expect = chai.expect;
@@ -13,6 +13,7 @@
 
 let expect = require("chai").expect;
 let sinonChai = require("sinon-chai");
+let sinon = require("sinon")
 
 let Person = require("../../main/practice_10/person.js");
 let Student = require("../../main/practice_10/student.js");
