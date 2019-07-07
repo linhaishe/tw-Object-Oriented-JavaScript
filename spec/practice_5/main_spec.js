@@ -8,6 +8,9 @@
 // import Worker from "../../main/practice_5/worker.js";
 let expect = require("chai").expect;
 let sinonChai = require("sinon-chai");
+let babelRegister = require("babel-register");
+let sourceMap =  'source-map-support/register'
+
 
 let Person = require("../../main/practice_5/person.js");
 let Student = require("../../main/practice_5/student.js");

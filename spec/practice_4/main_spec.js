@@ -5,6 +5,9 @@
 // chai.use(sinonChai);
 let expect = require("chai").expect;
 let sinonChai = require("sinon-chai");
+let babelRegister = require("babel-register");
+let sourceMap =  'source-map-support/register'
+
 
 // import Person from "../../main/practice_4/person.js";
 // import Student from "../../main/practice_4/student.js";

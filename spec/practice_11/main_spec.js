@@ -14,6 +14,8 @@
 let expect = require("chai").expect;
 let sinonChai = require("sinon-chai");
 let sinon = require("sinon")
+let babelRegister = require("babel-register");
+let sourceMap =  'source-map-support/register'
 
 
 let Person = require("../../main/practice_11/person.js");
