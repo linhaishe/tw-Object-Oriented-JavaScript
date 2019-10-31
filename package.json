@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "loadsh": "0.0.4",
-    "lodash": "3.9.3"
+    "lodash": "4.17.13"
   },
   "devDependencies": {
     "@babel/core": "^7.5.0",
